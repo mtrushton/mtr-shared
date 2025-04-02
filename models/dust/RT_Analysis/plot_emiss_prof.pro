@@ -89,9 +89,9 @@ pro plot_emiss_prof, npos, nr, nz, ncomp, file, scale
     if(n ne 0 and n le 3) then begin
       plots, [plot_label_xpos, plot_label_xpos2], y_lab[n], $
              color=plot_label_colour[n], linestyle=plot_line_style[n], thick=6
-    endif
+    endif ; n ne 0 and n le 3
     if(n le 3) then xyouts, plot_label_xpos2 + lab_oft_x, y_lab[n], plot_label[n]
-  endfor
+  endfor ; n = 0, nlab - 1 
   
   device, /close
   
