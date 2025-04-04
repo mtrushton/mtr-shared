@@ -1,10 +1,10 @@
 pro int_z, npos, nposr, nposz, ncomp, file, r, dust_dens_z, scale
-; Integrate dust density over z-axis and calculate scaling factors
+; Integrate dust density over z and calculate scaling factors
   
 ; Files containing the opacities of each dust component (unscaled)
  file = ['opacity0.dat', 'opacity1.dat', 'opacity2.dat', 'opacity3.dat', 'opacity4.dat', 'opacity5.dat']
   
-; Corresponding dust mass for each component (M_sol)
+; Corresponding dust mass for each component (M_sol) used for scaling
  dust_comp_mass = [97950360., 3107165.5, 1567412.4, 26159.156, 27386412., 9599040.0]
   
 ; Get number of components
@@ -65,7 +65,7 @@ pro int_z, npos, nposr, nposz, ncomp, file, r, dust_dens_z, scale
     ; Account for symmetry about z=0
     dust_dens_z[*, i] = dust_dens_z[*, i] * 2.
     
-    ; Integrate over all positions to find scaling factor
+    ; Integrate over positions to find scaling factor
     pass_sum = 0.0
     for kz = 0L, nposz - 2 do begin
       for kr = 0L, nposr - 2 do begin
