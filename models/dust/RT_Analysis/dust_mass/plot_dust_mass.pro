@@ -41,7 +41,7 @@ pro plot_dust_mass, nposr, ncomp, file, nr, nz, dust_dens_z, scale, r
  set_plot, 'PS'
  device, file = 'dust_mass_r.ps', /color
   
-; Plot dust mass vs. radius
+; Plot radial profile of dust mass surface density
  plot, r/1e3, dust_mass_total*1e6, yrange=[ymin, ymax], ystyle=1, xrange=[xmin, xmax], $
        xtit='R [kpc]', ytit='!4R!X!ldust!N (M'+sunsymbol() +' kpc!U-2!N)', /ylog
   
