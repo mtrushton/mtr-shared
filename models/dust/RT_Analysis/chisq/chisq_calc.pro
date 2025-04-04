@@ -10,7 +10,7 @@ mask_f = strarr(n_obs)
 model_f = strarr(n_obs)
 psf_f = strarr(n_obs)
 
-; Initialise chi-square array to store values for each observation
+; Initialise chisq array to store values for each observation
 chisq_values = dblarr(n_obs)
 
 ; Process each observation
@@ -105,7 +105,7 @@ for n = 0, n_obs - 1L do begin
     nr_mod = n_elements(rcog_model)
     nr = nr_obs < nr_mod  ; Use the smaller of the two
 
-    ; Calculate chi-square for this waveband
+    ; Calculate chisq for this waveband
     chisq = 0.0
     nn = 0L
     for i = 0, nr - 1L do begin
@@ -115,7 +115,7 @@ for n = 0, n_obs - 1L do begin
         endif
     endfor ; i = 0, nr - 1L
     
-    ; Store chi-square value for this waveband
+    ; Store chisq value for this waveband
     chisq_values[n] = chisq
     
     ; Print results for this waveband
