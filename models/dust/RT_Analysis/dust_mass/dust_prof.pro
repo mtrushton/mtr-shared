@@ -175,8 +175,8 @@ pro dust_prof, nposr, nposz
   filenames = ['opacity.dat', 'opacity0.dat', 'opacity1.dat', 'opacity2.dat', $
                'opacity3.dat', 'opacity4.dat', 'opacity5.dat']
   
-  ; Open output files - FIXED THIS SECTION
-  units = lonarr(7)  ; Changed to lonarr for compatibility with lun numbers
+  ; Open output files
+  units = lonarr(7) 
   for i=0, 6 do begin
     openw, lun, filenames[i], /get_lun
     units[i] = lun
@@ -187,7 +187,7 @@ pro dust_prof, nposr, nposz
   for i=0, nposr-1 do begin
     z = 0.
     for n=0, nposz-1 do begin
-      ; Initialize dust densities for each component
+      ; Initialise dust densities for each component
       dust_dens = fltarr(6)
       
       ; Calculate dust density for each component
