@@ -57,7 +57,7 @@ for n = 0, n_obs - 1L do begin
     xcen_model = nx_reg / 2.
     ycen_model = ny_reg / 2.
 
-    ; Special case for UV bands
+    ; Account for the 'half maps' in the uv/optical
     if(lambda[n] lt 3.0) then xcen_model = 0.
 
     ; Calculate PSF regridding dimensions
