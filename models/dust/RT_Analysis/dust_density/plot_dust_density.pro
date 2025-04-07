@@ -19,8 +19,8 @@ pro plot_dust_density, npos, ncomp, file, nr, nz, scale
     for n = 0, nr - 1 do begin
       r[n] = rr[n*nz]
       dust_density_comp[n, i] = em[n*nz] * scale[i]
-    endfor
-  endfor
+    endfor ; n = 0, nr - 1 
+  endfor ; i = 0, ncomp - 1 
   
   ; Extract individual components
   dust_density_irr1 = dust_density_comp[*, 0]

@@ -22,7 +22,6 @@ pro dust_prof, nposr, nposz
     sha: 0.02, dr: 10., dz: 50., nposr: 2100, nposz: 12, $
     kappa: 8.07, z_t: 84e3, R_out: 5.8e3}
   
-  ; Return values
   nposr = params.nposr
   nposz = params.nposz
   
@@ -43,7 +42,6 @@ pro dust_prof, nposr, nposz
   sigtruncate1 = params.sha * params.rtrun1
   sigtruncate2 = params.sha * params.rtrun2
   
-  ; Loop through positions
   for i = 0, params.nposr-1 do begin
     rho = i * params.dr
     
@@ -89,13 +87,12 @@ pro dust_prof, nposr, nposz
       ; Total opacity
       a = adum + adum1 + adum2
       
-      ; Write to files
       printf, unit, rho, z, a
       printf, unit0, rho, z, adum
       printf, unit1, rho, z, adum1
       printf, unit2, rho, z, adum2
-    endfor
-  endfor
+    endfor ; n = 0, params.nposz-1 
+  endfor ; i = 0, params.nposr-1
   
   free_lun, unit
   free_lun, unit0
@@ -163,7 +160,7 @@ pro dust_prof, nposr, nposz
     printf, ounit, 'dust opacity at R_out'
     printf, ounit, tau_out[j]
     printf, ounit, ''
-  endfor
+  endfor ; j = 0, 2 
   
   printf, ounit, 'total dust mass'
   printf, ounit, total(M)

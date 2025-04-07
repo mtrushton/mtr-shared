@@ -25,15 +25,15 @@ pro int, nposr, nposz, npos, scale, ncomp, file
     
     ; Calculate integrated dust mass
     pass_sum = 0.0
-    for kz = 0, nposz-2 do begin
+    for Cdo begin
       for kr = 0, nposr-2 do begin
         pass = !pi * (rrr[kr+1,kz]^2 - rrr[kr,kz]^2) * (zzz[kr,kz+1] - zzz[kr,kz]) * $
                (taudouble[kr,kz] + taudouble[kr+1,kz+1])/2.
         pass_sum += pass
-      endfor
-    endfor
+      endfor ; kr = 0, nposr-2 
+    endfor ;  Cdo 
     
     pass_sum *= 2.  ; Account for symmetry
     scale[i] = (dust_comp_mass[i] > 0) / (pass_sum > 1e-10)  ; Avoid division by zero
-  endfor
+  endfor ;  i = 0, ncomp - 1
 end
