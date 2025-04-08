@@ -122,7 +122,7 @@ pro plot_sed, lam_uvo, lam_ir, s_uvo, sig_uvo, s_ir, sig_ir, gal_name, sedplot_x
       xyouts, x_text_pos, y_text_pos, para_axl[i]+'='+string(bfit_para[i], format='(F4.2)')+ $
               string('!9+!3')+string(error[i], format='(F4.2)')
     endelse
-  endfor
+  endfor ; i=0, n_elements(bfit_para)-1
   
   device, /close
   return
