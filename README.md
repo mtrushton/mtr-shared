@@ -1,1 +1,1 @@
-A representative sample of code written over the last 10 years
+Code Snippets for System Admin, Configuration, Data Analysis, and Presentation
