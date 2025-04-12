@@ -10,3 +10,7 @@
 2. fortran
 3. idl
 4. python
+   - galaxies
+   - stars
+   - utilities
+6. scripts
