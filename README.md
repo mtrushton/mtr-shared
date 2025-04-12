@@ -9,7 +9,7 @@
 1. <a href="https://github.com/mtrushton/mtr-shared/tree/main/configuration-files">configuration-files</a>
 2. <a href="https://github.com/mtrushton/mtr-shared/tree/main/fortran">fortran</a>
    -  <a href="https://github.com/mtrushton/mtr-shared/tree/main/fortran/dusty">dusty</a>
-4.  <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl">idl</a>
+4. <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl">idl</a>
    - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies">galaxies</a>
      - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/processing">processing</a>
      - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/radiative-transfer">radiative-transfer</a>
