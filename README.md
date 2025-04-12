@@ -10,8 +10,12 @@
 2. fortran
    - dusty
 4. idl
-5. python
+   - galaxies
+     - processing
+     - radiative-transfer
+     - spectral-energy-distribution
+6. python
    - galaxies
    - stars
    - utilities
-6. scripts
+7. scripts
