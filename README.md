@@ -2,7 +2,7 @@
 
 ## $${\large\bf\rm ~~~~Description}$$ 
 
-            ${\it Code Snippets for System Admin, Configuration, Data Analysis, and Presentation}$
+            $${\it Code Snippets for System Admin, Configuration, Data Analysis, and Presentation}$$
 
 ## $${\large\bf\rm ~~~~Contents}$$ 
 
