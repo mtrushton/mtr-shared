@@ -16,7 +16,9 @@
        - dust-density
        - dust-mass
        - eta
+       - extinction-curve
        - intrinsic-luminosities
+       - stellar-emissivity
        - surface-brighness-profiles
      - spectral-energy-distribution
 6. python
