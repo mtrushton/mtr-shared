@@ -13,6 +13,11 @@
    - galaxies
      - processing
      - radiative-transfer
+       - dust-density
+       - dust-mass
+       - eta
+       - intrinsic-luminosities
+       - surface-brighness-profiles
      - spectral-energy-distribution
 6. python
    - galaxies
