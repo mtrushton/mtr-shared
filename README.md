@@ -7,8 +7,8 @@
 ## $${\large\bf\rm ~~~~Contents}$$ 
 
 1. <a href="https://github.com/mtrushton/mtr-shared/tree/main/configuration-files">configuration-files</a>
-2. fortran
-   - dusty
+2. <a href="https://github.com/mtrushton/mtr-shared/tree/main/fortan">fortran</a>
+   -  <a href="https://github.com/mtrushton/mtr-shared/tree/main/fortan/dusty">dusty</a>
 4. idl
    - galaxies
      - processing
