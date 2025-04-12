@@ -23,6 +23,8 @@
      - spectral-energy-distribution
 6. python
    - galaxies
+     - dust
+     - gas
    - stars
    - utilities
 7. scripts
