@@ -6,7 +6,7 @@
 
 ## $${\large\bf\rm ~~~~Contents}$$ 
 
-1. configuration-files
+1. <a href="about.html">Click here to visit my about page!</a>
 2. fortran
    - dusty
 4. idl
