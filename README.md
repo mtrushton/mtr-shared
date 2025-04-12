@@ -12,7 +12,7 @@
 4.  <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl">idl</a>
    - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies">galaxies</a>
      - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/processing">processing</a>
-     -  <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/radiative-transfer">radiative-transfer</a>
+     - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/radiative-transfer">radiative-transfer</a>
        - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/radiative-transfer/dust-density">dust-density</a>
        -  <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/radiative-transfer/dust-mass">dust-mass</a>
        - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/radiative-transfer/eta">eta</a>
@@ -20,7 +20,7 @@
        - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/radiative-transfer/intrinsic-luminosities">intrinsic-luminosities</a>
        - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/radiative-transfer/stellar-emissivity">stellar-emissivity</a>
        - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/radiative-transfer/surface-brightness-profiles">surface-brightness-profiles</a>
-  - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/spectral-energy-distribution">spectral-energy-distribution</a>
+       - <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl/galaxies/spectral-energy-distribution">spectral-energy-distribution</a>
 6. <a href="https://github.com/mtrushton/mtr-shared/tree/main/python">python</a>
    -  <a href="https://github.com/mtrushton/mtr-shared/tree/main/python/galaxies">galaxies</a>
      - <a href="https://github.com/mtrushton/mtr-shared/tree/main/python/galaxies/dust">dust</a>
