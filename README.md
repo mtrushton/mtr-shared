@@ -1,3 +1,3 @@
- # $${\bf \color{lightblue}\rm mtr-shared}$$
+ # $${\bf \color{lightblue}\ mtr-shared}$$
 
 Code Snippets for System Admin, Configuration, Data Analysis, and Presentation
