@@ -45,9 +45,9 @@ power_law_scaling = 5.0e-15
 wave_model_orig = np.linspace(0.2, 50, 10000)
    
 # Physical constants
-h = 6.626e-34  # Planck's constant (J·s)
-c = 3e8        # Speed of light (m/s)
-k = 1.380e-23  # Boltzmann constant (J/K)
+h = 6.626e-34  
+c = 3e8       
+k = 1.380e-23 
 
 # Function to calculate SED of V745 Sco (see V745_SCO_SED_PLOT program)
 def calculate_sed(wavelengths):
