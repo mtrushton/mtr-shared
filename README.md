@@ -2,7 +2,8 @@
 
 ## $${\large\bf\rm ~~~~Description}$$ 
 
-            Code Snippets for System Admin, Configuration, Data Analysis, and Presentation. This repository focuses primarily on astronomical applications including modelling of the panchromatic emission of spiral galaxies with radiative transfer, and the circumstellar environments.
+            Code Snippets for System Admin, Configuration, Data Analysis, and Presentation. 
+            This repository focuses primarily on astronomical applications including modelling of the panchromatic emission of spiral galaxies with radiative transfer, and the circumstellar environments.
 
 ## $${\large\bf\rm ~~~~Contents}$$ 
 
