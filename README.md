@@ -35,4 +35,4 @@
      - <a href="https://github.com/mtrushton/mtr-shared/tree/main/python/galaxies/gas">gas</a>
    -  <a href="https://github.com/mtrushton/mtr-shared/tree/main/python/stars">stars</a> ⭐
    - <a href="https://github.com/mtrushton/mtr-shared/tree/main/python/utilities">utilities</a>
-7.  <a href="https://github.com/mtrushton/mtr-shared/tree/main/scripts">scripts</a>
+<a href="https://github.com/mtrushton/mtr-shared/tree/main/scripts"><font color="#0000ff"><u>5.</u></font>scripts</a>
