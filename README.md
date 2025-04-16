@@ -9,7 +9,7 @@
 
 ## $${\large\bf\rm ~~~~Contents}$$ 
 
-1. <a href="https://github.com/mtrushton/mtr-shared/tree/main/configuration-files">configuration-files</a>
+<a href="https://github.com/mtrushton/mtr-shared/tree/main/configuration-files"><font color="#0000ff"><u>1.</u></font> configuration-files</a>
 2. <a href="https://github.com/mtrushton/mtr-shared/tree/main/fortran">fortran</a>
    -  <a href="https://github.com/mtrushton/mtr-shared/tree/main/fortran/dusty">dusty</a>
 4. <a href="https://github.com/mtrushton/mtr-shared/tree/main/idl">idl</a>
