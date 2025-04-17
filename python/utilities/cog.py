@@ -67,7 +67,9 @@ def cog(x_in, mask_in, pa, ellipt, xcen, ycen, wa):
         Largest element of RCOG with full azimuthal coverage
     """
     # Image dimensions
-    ny, nx = x_in.shape
+    shape = x_in.shape
+    ny = shape[0]  # First dimension (rows)
+    nx = shape[1]  # Second dimension (columns)
     
     # Calculate elliptical radii for all pixels
     r = dist_ellipse(nx, ny, xcen, ycen, 1.0/ellipt, pa)
@@ -79,10 +81,11 @@ def cog(x_in, mask_in, pa, ellipt, xcen, ycen, wa):
     rcog = (1.0 + np.arange(nr, dtype=float)) * waout
     
     # Radius with full azimuthal coverage
+    # Fix these lines in the cog function
     a1 = np.min(r[0, :])
-    a2 = np.min(r[nx-1, :])
+    a2 = np.min(r[ny-1, :])  # Change nx-1 to ny-1
     a3 = np.min(r[:, 0])
-    a4 = np.min(r[:, ny-1])
+    a4 = np.min(r[:, nx-1])  # Change ny-1 to nx-1
     r2pi = min(a1, a2, a3, a4)
     
     bcog = np.zeros(nr, dtype=float)
